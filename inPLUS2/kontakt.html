@@ -1,0 +1,56 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>księgowość-bhp-inplus</title>
+	<meta name="description" content="Księgowość online. BHP"/>
+	<meta name="keywords" content="księgowość, BHP, rozliczenia, online, faktury, księgowa, rachunkowość, rozwój"/>
+
+	
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css" />
+
+</head>
+<body>
+<div class="content">
+	<div class="logo"><img src="logo3.png" alt="inPLUS"/></div>
+	<div class="nav">
+		<nav>
+		<ul>
+			<li id="lista1"><a href="index.html">strona główna</a></li>
+			<li id="lista2"><a href="o_mnie.html">o mnie</a></li>
+			<li id="lista3"><a href="oferta.html">oferta</a></li>
+			<li id="lista4"><a href="cennik.html">cennik</a></li>
+			<li id="lista5"><a href="kontakt.html">kontakt</a></li>
+		</ul>	
+		</nav>
+	</div>
+	<div class="main">
+		<div class="article">
+			<p>ul. Armii Krajowej 3 </br>Komarów-Osada, Zamość, Poland<p/>
+			<p>Siedziba: ul. Darłowska 52</br>60-452 Poznań</p>
+			<p><a href="https://www.facebook.com/inPlus.ksiegowosc.bhp/" target="_blanck"><i class="icon-facebook"></i>facebook</a></p>
+			<p><i class="icon-mail"></i>@inPlus.ksiegowosc.bhp<p/>
+			<p><i class="icon-phone"></i>Zadzwoń 721 987 132<p/>
+			
+		</div>
+	</div>
+</div>	
+	<div class="footer"> Copyrite &copy; 2018 Wszelkie prawa zastrzeżone.     Projekt i wykonanie by Agnieszka Świderek</div>
+
+<script>
+	var lista = document.querySelectorAll("#lista5");
+
+	for (var i=0;i<lista.length; i++){
+		lista[i].classList.toggle("a2")};
+	
+	var icon = document.querySelector(".icon-facebook");
+	icon.addEventListener("mousedown", function(){
+	icon.classList.add("icon2")});
+		
+</script>
+
+
+</body>
+</html>
